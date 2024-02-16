@@ -22,3 +22,11 @@ const target = 12;
 
 const index = binarySearch(sortedArray, target);
 console.log("Index of", target, ":", index); // Output: Index of 12: 4
+
+// DISCUSSION
+/* Time Complexity Analysis
+Binary search has a time complexity of O(log n) because it divides the search interval in half with each iteration.
+This logarithmic time complexity makes binary search significantly faster than linear search (O(n)), especially for large arrays.
+Conclusion
+Binary search is a powerful algorithm for searching in sorted arrays. By systematically reducing the search space in each iteration, it efficiently finds the target value with a time complexity of O(log n).
+ */
